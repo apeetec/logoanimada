@@ -1,0 +1,18 @@
+body{
+  margin:0;
+}
+.box-preloader {
+    height: 100dvh;
+    position: fixed;
+    width: 100%;
+    background-color: #0D3F4E;
+    z-index: 995;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-preloader svg {
+    max-width: 68%;
+    display: block;
+    margin: 0 auto;
+}
